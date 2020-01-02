@@ -1,0 +1,17 @@
+{
+  "name": "Chat",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^1.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+
+  }
+}
