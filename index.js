@@ -9,7 +9,7 @@ app.get('/', (req, res)=> {
 
 
 io.on('connection', (socket)=>{
-  connections.push(socket)
+  
   socket.on('chat message',(msg)=>{
     io.emit('chat message', msg)
   })
